@@ -33,6 +33,14 @@ public class Main {
         //If that is the case, use firstName initial and the full lastName
 
         //Program begins here...
+        fName = fName.toLowerCase();
+        lName = lName.toLowerCase();
+
+        String username = fName.substring(0, 1) + lName.substring(0, 1) + studentID.substring(studentID.length() - 3);
+        System.out.println(username);
+
+        String password = "pizza=10";
+        System.out.println(password);
     }
 
 
